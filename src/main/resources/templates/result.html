@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BST Result</title>
+</head>
+<body>
+<h2>Tree Created</h2>
+
+<p><strong>Input:</strong><span th:text="${entry.inputNumbers}"></span></p>
+
+<pre><code th:text="${entry.treeJson}"></code></pre>
+
+<a href="/enter-numbers">Back</a>
+</body>
+</html>
